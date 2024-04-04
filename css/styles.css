@@ -34,6 +34,10 @@ button {
   border: none;
 }
 
+img {
+  display: block;
+}
+
 .for-titles {
   color: #2e2f42;
 }
@@ -71,6 +75,10 @@ address {
   display: flex;
 }
 
+.header-logo {
+  margin-right: 76px;
+}
+
 .header-logo,
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -96,6 +104,7 @@ address {
 
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /*menu navigation*/
@@ -106,6 +115,15 @@ address {
 .team-subtitle,
 .portfolio-subtitle {
   font-weight: 500;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-list {
+  gap: 40px;
 }
 
 .header-navigation-item {
@@ -136,6 +154,11 @@ address {
 .header-contacts-item:hover,
 .header-contacts-item:focus {
   color: #404bbf;
+}
+
+.header-contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 /*======================= MAIN ========================*/
@@ -301,6 +324,7 @@ address {
 .footer {
   background-color: #2e2f42;
 
+  padding: 100px 0;
   height: 312px;
 }
 
@@ -316,6 +340,8 @@ address {
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer .container {
