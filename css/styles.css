@@ -16,11 +16,11 @@ h6 {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
 
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding-left: 0;
 }
 
@@ -29,7 +29,9 @@ a {
 }
 
 button {
+  display: block;
   cursor: pointer;
+  border: none;
 }
 
 .for-titles {
@@ -62,6 +64,7 @@ address {
   padding-bottom: 120px;
 }
 
+/*======================= HEADER ========================*/
 /*header*/
 
 .header-container {
@@ -135,7 +138,8 @@ address {
   color: #404bbf;
 }
 
-/*main*/
+/*======================= MAIN ========================*/
+
 /*main-title-section (hero)*/
 
 .hero-title-section {
@@ -152,13 +156,16 @@ address {
   color: #fff;
   background-color: #2e2f42;
   text-align: center;
-  max-width: 496px; /*
-  margin: 0 auto;*/
+
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 /*button's main settings*/
 
 .hero-title-button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -170,6 +177,8 @@ address {
   padding: 16px 32px;
   width: 169px;
   height: 56px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-wrap {
@@ -193,6 +202,7 @@ address {
   padding-bottom: 120px;
 }
 
+.team-subtitle,
 .features-subtitle {
   margin-bottom: 8px;
 }
@@ -200,6 +210,9 @@ address {
 .features-list {
   margin-right: 15px;
   margin-left: 15px;
+
+  margin-top: 135px;
+  margin-bottom: 120px;
 }
 
 .features-item {
@@ -232,6 +245,8 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+
+  margin-bottom: 72px;
 }
 
 .team-subtitle,
@@ -239,8 +254,6 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
-  margin-bottom: 72px;
 }
 
 .team-section-first-item {
@@ -306,6 +319,12 @@ address {
 }
 
 .footer .container {
+  /* max-width: 264px;
+  padding-left: 156px; */
+
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer-text {
+  width: 264px;
 }
