@@ -133,6 +133,7 @@ header .container {
 }
 
 .header-nav-list {
+  display: flex;
   gap: 40px;
 }
 
@@ -142,6 +143,8 @@ header .container {
 
   width: 261px;
   height: 24px;
+
+  padding: 24px 0;
 }
 
 .header-navigation-item:hover,
@@ -228,6 +231,8 @@ header .container {
   background-color: #404bbf;
 }
 
+/*======================= FIRST SECTION ========================*/
+
 /*features-section*/
 
 .features-section {
@@ -246,6 +251,10 @@ header .container {
 
   margin-top: 135px;
   margin-bottom: 120px;
+
+  display: flex;
+  gap: 24px;
+  calc((100%-3*24px)/4);
 }
 
 .features-item {
@@ -261,13 +270,14 @@ header .container {
   color: #434455;
 }
 
+/*======================= SECOND SECTION ========================*/
+
 /*team-section*/
 
 .team-section {
   background-color: #f4f4fd;
 
-  padding-top: 120px;
-  padding-bottom: 72px;
+  padding: 120px 0;
 }
 
 .team-title,
@@ -296,22 +306,46 @@ header .container {
   padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
+
+  width: calc((100%-72px)/4);
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
+
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 120px;
 }
 
+.employee {
+  padding: 32px 0
+}
+
+.team-subtitle {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-text {
+  text-align: center;
+}
+
+/*======================= FOURTH SECTION ========================*/
+
 /*portfolio-section*/
 
 .portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 120px;
@@ -327,7 +361,18 @@ header .container {
 .portfolio-item {
   width: 360px;
   height: 420px;
+
+  width: calc((100%-48px)/3);
 }
+
+.application {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+/*======================= FOOTER ========================*/
 
 /*footer*/
 
