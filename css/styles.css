@@ -217,12 +217,12 @@ header .container {
   margin: 0 auto;
 }
 
-.hero-wrap {
+/*.hero-wrap {
   padding-top: 188px;
   padding-bottom: 192px;
   padding-right: 472px;
   padding-left: 472px;
-}
+}*/
 
 /*button's settings with hover, focus*/
 .hero-title-button:hover,
