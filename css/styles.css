@@ -221,13 +221,6 @@ header .container {
   margin: 0 auto;
 }
 
-/*.hero-wrap {
-  padding-top: 188px;
-  padding-bottom: 192px;
-  padding-right: 472px;
-  padding-left: 472px;
-}*/
-
 /*button's settings with hover, focus*/
 .hero-title-button:hover,
 .hero-title-button:focus,
@@ -263,8 +256,6 @@ header .container {
 .features-item {
   width: 264px;
   width: calc((100% - 3 * 24px) / 4);
-
-  /*height: 104px;*/
 }
 
 .features-text,
@@ -404,12 +395,10 @@ header .container {
 }
 
 .footer .container {
-  /* max-width: 264px;
-  padding-left: 156px; */
-
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .footer-text {
   width: 264px;
 }
