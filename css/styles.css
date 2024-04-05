@@ -254,7 +254,7 @@ header .container {
 
   display: flex;
   gap: 24px;
-  calc((100%-3*24px)/4);
+  width: calc((100%-3 * 24px) / 4);
 }
 
 .features-item {
@@ -307,7 +307,7 @@ header .container {
   width: 264px;
   height: 380px;
 
-  width: calc((100%-72px)/4);
+  width: calc((100%-72px) / 4);
 }
 
 .team-list {
@@ -320,7 +320,7 @@ header .container {
 }
 
 .employee {
-  padding: 32px 0
+  padding: 32px 0;
 }
 
 .team-subtitle {
@@ -337,7 +337,7 @@ header .container {
 /*portfolio-section*/
 
 .portfolio-section {
-  padding-top: 120px; 
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -362,7 +362,7 @@ header .container {
   width: 360px;
   height: 420px;
 
-  width: calc((100%-48px)/3);
+  width: calc((100%-48px) / 3);
 }
 
 .application {
