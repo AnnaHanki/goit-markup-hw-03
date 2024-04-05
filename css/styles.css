@@ -231,7 +231,7 @@ header .container {
   background-color: #404bbf;
 }
 
-/*======================= FIRST SECTION ========================*/
+/*======================= SECOND SECTION ========================*/
 
 /*features-section*/
 
@@ -254,7 +254,7 @@ header .container {
 
   display: flex;
   gap: 24px;
-  width: calc((100%-3 * 24px) / 4);
+  width: calc((100%-3*24px)/4);
 }
 
 .features-item {
@@ -270,7 +270,7 @@ header .container {
   color: #434455;
 }
 
-/*======================= SECOND SECTION ========================*/
+/*======================= THIRD SECTION ========================*/
 
 /*team-section*/
 
@@ -307,7 +307,7 @@ header .container {
   width: 264px;
   height: 380px;
 
-  width: calc((100%-72px) / 4);
+  width: calc((100%-72px)/4);
 }
 
 .team-list {
@@ -344,7 +344,7 @@ header .container {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
+  column-gap: 24px;
 
   padding-right: 15px;
   padding-left: 15px;
@@ -362,13 +362,17 @@ header .container {
   width: 360px;
   height: 420px;
 
-  width: calc((100%-48px) / 3);
+  width: calc((100%-48px)/3);
 }
 
 .application {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
+}
+
+.portfolio-subtitle {
   margin-bottom: 8px;
 }
 
