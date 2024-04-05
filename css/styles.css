@@ -302,7 +302,9 @@ header .container {
   padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
+}
 
+.team-section-item {
   width: calc((100% - 72px) / 4);
 }
 
