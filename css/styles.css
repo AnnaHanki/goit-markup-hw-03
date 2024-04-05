@@ -346,10 +346,12 @@ header .container {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
+  
+  column-gap: 24px;
 
-  padding-right: 15px;
+  /* padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 120px;
+  padding-bottom: 120px; */
 }
 
 .portfolio-text {
@@ -360,9 +362,6 @@ header .container {
 }
 
 .portfolio-item {
-  width: 360px;
-  height: 420px;
-
   width: calc((100%-48px)/3);
 }
 
