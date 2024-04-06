@@ -305,10 +305,6 @@ header .container {
 .team-list {
   display: flex;
   gap: 24px;
-
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 120px;
 }
 
 .employee {
