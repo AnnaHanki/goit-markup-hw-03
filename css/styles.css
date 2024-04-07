@@ -82,7 +82,7 @@ address {
 /*header*/
 
 .header-container {
-  display: flex;
+  justify-content: space-between;
 }
 
 .header-logo {
@@ -294,8 +294,6 @@ header .container {
 
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
 }
 
 .team-section-item {
@@ -352,7 +350,6 @@ header .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
@@ -365,9 +362,6 @@ header .container {
 
 .footer {
   background-color: #2e2f42;
-
-  padding: 100px 0;
-  height: 312px;
 }
 
 .logos-footer {
