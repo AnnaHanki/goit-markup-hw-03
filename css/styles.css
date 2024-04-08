@@ -82,6 +82,7 @@ address {
 /*header*/
 
 .header-container {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -362,6 +363,9 @@ header .container {
 
 .footer {
   background-color: #2e2f42;
+
+  padding: 100px 0;
+  height: 312px;
 }
 
 .logos-footer {
@@ -378,11 +382,6 @@ header .container {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.footer .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .footer-text {
